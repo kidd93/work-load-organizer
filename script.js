@@ -1,3 +1,4 @@
+ // current day date applied to the header of the index.html sheet.
  var currentDayEl = document.querySelector("#currentDay");
 
  setInterval(function(){
