@@ -1,9 +1,28 @@
  // current day date applied to the header of the index.html sheet.
  var currentDayEl = document.querySelector("#currentDay");
+var saveButton = [];
 
  setInterval(function(){
      currentDayEl.textContent = moment().format("dddd MMM Do YYYY");
  });
+
+ let saveToLocalStorage = 
+
+ 
+
+function saveButton(event){
+    const saveToLocalStorage = () => {
+localStorage.setItem("saveButton", JSON.stringify());
+console.log("saveButton");
+document.getElementById("saveButton").addEventListener("click", saveButton);
+event.preventDefault;
+    }
+}
+saveToLocalStorage = localStorage.getItem("saveButton");
+
+
+
+
 
 // let descriptionText = document.querySelector(".description");
 
